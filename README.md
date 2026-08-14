@@ -1,6 +1,6 @@
 # AWS Cloud Engineer Daily Lab
 
-This repository is a running portfolio of hands-on AWS Cloud Engineering labs, documented day by day.
+This repository is a running portfolio of hands on AWS Cloud Engineering labs, documented day by day.
 
 Each day represents a real-world ticket scenario: securing an account, configuring access control, deploying infrastructure, troubleshooting, and applying cloud security best practices the kind of work a junior Cloud Engineer would actually be assigned.
 
@@ -9,13 +9,12 @@ Each day represents a real-world ticket scenario: securing an account, configuri
 ```text
 aws-cloud-engineer-daily-lab/
 │
-├── README.md                       ← you are here
-├── .gitignore
+├── README.md                      
 │
 ├── day-01-account-security/
 │   ├── README.md                   ← ticket summary + tasks completed
-│   ├── screenshots/                ← evidence (no secrets)
-│   └── lessons-learned.md          ← reflection Q&A
+│   ├── screenshots/                ← evidence of the work done (no secrets)
+│   └── lessons-learned.md          ← reflection of what learned thought out the processes 
 │
 ```
 
