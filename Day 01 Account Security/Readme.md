@@ -1,8 +1,8 @@
-# Day 1 — AWS Account Security & Cost Guardrails
+# Day 1 AWS Account Security & Cost Guardrails
 
 ## Ticket
 
-**AWS-001 — Secure a New AWS Environment**
+**AWS-001: Secure a New AWS Environment**
 
 > Joined a company as a junior Cloud Engineer and was given an AWS account. Before deploying any infrastructure, the account must be secured, safe access established, and cost protection configured.
 
