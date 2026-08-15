@@ -30,16 +30,16 @@ Secure a new AWS environment before deploying any infrastructure.
 
 ### IAM
 - Dedicated daily administrative identity created: `cloud-engineer-admin`
-- `AdministratorAccess` attached **only** because this is an isolated personal learning account
-- This is a temporary model — least-privilege roles (Cloud Engineer → ReadOnly → service-specific) will replace it in a later lab
+- `AdministratorAccess` attached only because this is an isolated personal learning account
+- This is a temporary model least-privilege roles (Cloud Engineer → ReadOnly → service-specific) will replace it in a later lab
 
 ### Cost Protection
-- Zero-spend budget configured to catch any unexpected charge
-- Secondary warning budget (small dollar threshold) configured as a second layer of detection
+- Zero spend budget configured to catch any unexpected charge
+- Secondary warning budget small dollar threshold configured as a second layer of detection
 - Free Tier usage dashboard reviewed
 
 ### Region
-- Active AWS region: `<fill in your region, e.g. Asia Pacific (Mumbai) — ap-south-1>`
+- Active AWS region: `(Mumbai) — ap-south-1`
 
 ## Evidence
 
