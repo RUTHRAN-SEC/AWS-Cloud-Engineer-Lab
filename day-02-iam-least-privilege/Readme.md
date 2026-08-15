@@ -1,4 +1,4 @@
-# Day 2 — IAM Least Privilege
+# Day 2  IAM Least Privilege
 
 ## Ticket
 
