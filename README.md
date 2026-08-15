@@ -2,18 +2,21 @@
 
 This repository is a running portfolio of hands on AWS Cloud Engineering labs, documented day by day.
 
-Each day represents a real-world ticket scenario: securing an account, configuring access control, deploying infrastructure, troubleshooting, and applying cloud security best practices the kind of work a junior Cloud Engineer would actually be assigned.
+Each day represents a real world ticket scenario: securing an account, configuring access control, deploying infrastructure, troubleshooting, and applying cloud security best practices the kind of work a junior Cloud Engineer would actually be assigned.
 
 ## Structure
 
 ```text
-aws-cloud-engineer-daily-lab/
+AWS-Cloud-Engineer-Lab/
 │
 ├── README.md                      
 │
 ├── day-01-account-security/
 │   ├── README.md                   ← ticket summary + tasks completed
 │   ├── screenshots/                ← evidence of the work done (no secrets)
+|   |   ├── 01-root-mfa-enabled.png
+│   │   ├── 02-iam-admin-login.png
+│   │   └── 03-free-tier-usage.png
 │   └── lessons-learned.md          ← reflection of what learned thought out the processes 
 │
 ```
@@ -42,7 +45,7 @@ aws-cloud-engineer-daily-lab/
 | 11 | EventBridge Event-Driven Automation | Upcoming |
 | 12 | SNS Operational Alerts | Upcoming |
 | 13 | EventBridge + Lambda + SNS Automation | Upcoming |
-| 14 | Incident #002 — Lambda Configuration Failure | Upcoming |
+| 14 | Incident — Lambda Configuration Failure | Upcoming |
 | 15 | CloudFormation Infrastructure as Code | Upcoming |
 | 16 | CloudFormation Parameters & Reusable Templates | Upcoming |
 | 17 | Secure Infrastructure as Code | Upcoming |
@@ -63,3 +66,7 @@ aws-cloud-engineer-daily-lab/
 ## About
 
 This log is built as a public portfolio to demonstrate practical, ticket-driven AWS engineering skills — not just certifications.
+
+
+### AUTHOR
+#### RUTHRAN-SEC (**AWS Certified Cloud Practitioner**)
