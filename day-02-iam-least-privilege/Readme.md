@@ -84,11 +84,6 @@ Screenshots are stored in [`/screenshots`](./screenshots), with all sensitive de
 
 See [`troubleshooting.md`](./troubleshooting.md) for the initial "developer cannot access S3" investigation.
 
-## Interview Question
-
-> Why does `s3:ListBucket` use `arn:aws:s3:::bucket-name`, while `s3:GetObject` uses `arn:aws:s3:::bucket-name/*`?
-
-_Answer in your own words in `lessons-learned` or below once confident you can explain it without looking it up._
 
 ## Lessons Learned
 
