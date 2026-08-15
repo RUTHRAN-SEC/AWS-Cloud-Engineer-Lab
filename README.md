@@ -19,6 +19,17 @@ AWS-Cloud-Engineer-Lab/
 │   │   └── 03-free-tier-usage.png
 │   └── lessons-learned.md          ← reflection of what learned thought out the processes 
 │
+├── day-02-iam-least-privilege/
+├── README.md
+├── policy/
+│   └── developer-s3-access.json
+├── screenshots/
+│   ├── 01-s3-bucket.png
+│   ├── 02-developer-permissions.png
+│   ├── 03-upload-success.png
+│   ├── 04-download-success.png
+│   └── 05-delete-denied.png
+└── troubleshooting.md
 ```
 
 ## Ground rules followed across all days
@@ -32,8 +43,8 @@ AWS-Cloud-Engineer-Lab/
 
 | Day | Topic | Status |
 |-----|-------|--------|
-| 01 | AWS Account Security & Cost Guardrails | Complete |
-| 02 | IAM Access Control & Least Privilege | Upcoming |
+| 01 | AWS Account Security & Cost Guardrails | Completed |
+| 02 | IAM Access Control & Least Privilege | Completed |
 | 03 | IAM Least Privilege Policy Hardening | Upcoming |
 | 04 | S3 Operations & Security | Upcoming |
 | 05 | S3 Access Troubleshooting | Upcoming |
