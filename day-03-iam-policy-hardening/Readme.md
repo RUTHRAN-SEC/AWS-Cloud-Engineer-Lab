@@ -100,7 +100,7 @@ Screenshots are stored in [`/screenshots`](./screenshots), with all sensitive de
 
 See [`troubleshooting.md`](./troubleshooting.md) for the "developer can upload but not delete" support ticket investigation.
 
-##  Checklist
+##  Things to Do 
 
 - [ ] Insecure policy detached from `developer-day02`
 - [ ] Hardened policy attached
