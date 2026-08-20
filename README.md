@@ -36,11 +36,8 @@ AWS-Cloud-Engineer-Lab/
 ├── policies/
 │   ├── insecure-policy.json
 │   └── hardened-policy.json
-│
 ├── risk-analysis.md
-│
 ├── troubleshooting.md
-│
 └── screenshots/
        ├── 01-insecure-policy.png
        ├── 02-policy-review.png
