@@ -39,4 +39,4 @@ If the developer's credentials are compromised, an attacker inherits far more S3
 > **Least privilege reduces blast radius.**
 
 
-The policy fails least privilege on both dimensions that matter — **actions** and **resources** — and should be replaced with a scoped policy limited to the three actions and the one bucket the developer actually needs. See [`policies/hardened-policy.json`](./policies/hardened-policy.json).
+The policy fails least privilege on both dimensions that matter — **actions** and **resources** — and should be replaced with a scoped policy limited to the three actions and the one bucket the developer actually needs. [`policies/hardened-policy.json`](./policies/hardened-policy.json).
