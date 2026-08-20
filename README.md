@@ -30,6 +30,23 @@ AWS-Cloud-Engineer-Lab/
 │   ├── 04-download-success.png
 │   └── 05-delete-denied.png
 └── troubleshooting.md
+│
+├── day-03-iam-policy-hardening/
+├── README.md
+├── policies/
+│   ├── insecure-policy.json
+│   └── hardened-policy.json
+│
+├── risk-analysis.md
+│
+├── troubleshooting.md
+│
+└── screenshots/
+       ├── 01-insecure-policy.png
+       ├── 02-policy-review.png
+       ├── 03-hardened-policy.png
+       ├── 04-allowed-test.png
+       └── 05-denied-test.png
 ```
 
 ## Ground rules followed across all days
@@ -45,7 +62,7 @@ AWS-Cloud-Engineer-Lab/
 |-----|-------|--------|
 | 01 | AWS Account Security & Cost Guardrails | Completed |
 | 02 | IAM Access Control & Least Privilege | Completed |
-| 03 | IAM Least Privilege Policy Hardening | Upcoming |
+| 03 | IAM Least Privilege Policy Hardening | Completed |
 | 04 | S3 Operations & Security | Upcoming |
 | 05 | S3 Access Troubleshooting | Upcoming |
 | 06 | CloudWatch Monitoring & Dashboards | Upcoming |
