@@ -94,7 +94,6 @@ Screenshots are stored in [`/screenshots`](./screenshots), with all sensitive de
 | 3 | `03-hardened-policy.png` | The scoped least-privilege policy |
 | 4 | `04-allowed-test.png` | Allowed actions passing (list/upload/download) |
 | 5 | `05-denied-test.png` | Denied action (delete) |
-| 6 | `06-policy-simulator.png` | IAM Policy Simulator results against the hardened policy |
 
 ## Troubleshooting
 
