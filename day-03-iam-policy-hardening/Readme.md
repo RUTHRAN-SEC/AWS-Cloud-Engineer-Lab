@@ -24,7 +24,7 @@ Resource:
 
 This violated the principle of least privilege.
 
-See [`policies/insecure-policy.json`](./policies/insecure-policy.json) — kept in the repo as a labeled, intentionally insecure example, never used in production.
+See [`policies/insecure-policy.json`](./policies/insecure-policy.json) kept in the repo as a labeled, intentionally insecure example, never used in production.
 
 ## Business Requirement
 
