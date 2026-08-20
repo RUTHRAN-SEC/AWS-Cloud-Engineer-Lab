@@ -46,11 +46,11 @@ The developer does not require:
 
 Full detail in [`risk-analysis.md`](./risk-analysis.md).
 
-- **Excessive actions** — `s3:*` grants unnecessary permissions
-- **Excessive resource scope** — `Resource: "*"` creates an unnecessarily broad permission scope
-- **Destructive operations** — potential to delete objects/buckets
-- **Configuration modification** — potential to change bucket-level security settings
-- **Blast radius** — compromised developer credentials could provide excessive access to S3 resources
+- **Excessive actions** : `s3:*` grants unnecessary permissions
+- **Excessive resource scope** : `Resource: "*"` creates an unnecessarily broad permission scope
+- **Destructive operations** : potential to delete objects/buckets
+- **Configuration modification** : potential to change bucket-level security settings
+- **Blast radius** : compromised developer credentials could provide excessive access to S3 resources
 
 ## Remediation
 
