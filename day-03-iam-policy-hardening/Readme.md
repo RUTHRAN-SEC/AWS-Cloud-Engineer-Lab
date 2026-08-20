@@ -4,7 +4,7 @@
 
 **AWS-003: Excessive Developer Permissions**
 
-> A security review found a developer with an `s3:*` / `Resource: *` policy. The developer only needs to work with one S3 bucket. Investigate, identify the risks, replace with least-privilege permissions, and prove the developer can still do their job.
+> A security review found a developer with an `s3:*` / `Resource: *` policy. The developer only needs to work with one S3 bucket. Investigate, identify the risks, replace with least privilege permissions and prove the developer can still do their job.
 
 ## Objective
 
@@ -49,12 +49,12 @@ Full detail in [`risk-analysis.md`](./risk-analysis.md).
 - **Excessive actions** : `s3:*` grants unnecessary permissions
 - **Excessive resource scope** : `Resource: "*"` creates an unnecessarily broad permission scope
 - **Destructive operations** : potential to delete objects/buckets
-- **Configuration modification** : potential to change bucket-level security settings
+- **Configuration modification** : potential to change bucket level security settings
 - **Blast radius** : compromised developer credentials could provide excessive access to S3 resources
 
 ## Remediation
 
-Replaced the broad policy with a resource-scoped policy containing only:
+Replaced the broad policy with a resource scoped policy containing only:
 
 - `s3:ListBucket`
 - `s3:GetObject`
@@ -73,7 +73,7 @@ See [`policies/hardened-policy.json`](./policies/hardened-policy.json).
 | Modify bucket policy | Deny | PASS |
 | Delete bucket | Deny | PASS |
 
-Also validated with the IAM Policy Simulator directly against the hardened policy (see screenshot 06).
+Also validated with the IAM Policy Simulator directly against the hardened policy.
 
 ## Security Outcome
 
